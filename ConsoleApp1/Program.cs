@@ -39,6 +39,7 @@ Estudiante estudiante = new Estudiante {
 
 RectanguloEjercicio rectangulo = new RectanguloEjercicio
 {
+    
 };
 
 Console.WriteLine(rectangulo.CalcularBase());

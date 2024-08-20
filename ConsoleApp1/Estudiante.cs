@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Estudiante
+    internal class Estudiante : Persona
     {
-        public String CodEstudiante { get; set; }
+        public String Codigo get; set; }
     }
 }

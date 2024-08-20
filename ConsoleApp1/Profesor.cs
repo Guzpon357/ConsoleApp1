@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Profesor
+    internal class Profesor : Persona
     {
-        public String Sueldo { get; set; }
+        public int Sueldo { get; set; }
     }
 
 }

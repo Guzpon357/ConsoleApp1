@@ -24,5 +24,13 @@ persona.AsignarNombreCompletos();
 Console.WriteLine("Mi nombre es ");
 Console.WriteLine(persona.NombresCompletos);
 
+Profesor profesor = new Profesor { 
+        Nombres = "",
+        Apellidos = "",
+        Sueldo = 15000
+    
+};
+
+
 
 

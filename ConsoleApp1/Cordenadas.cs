@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Estudiante : Persona
+    internal class Cordenadas
+
     {
-        public String Codigo {get; set; }
+        public int CordenadaX { get; set; }
+        public int CordenadaY { get; set; }
     }
 }
